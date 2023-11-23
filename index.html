@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <title>Document</title>
+</head>
+<body class="container-fluid">
+    <header class="text-center bg-danger m-0">
+        <h1>Adivinalo!</h1>
+    </header>
+    <main class="bg-body-secondary text-center ">
+        <section class="d-flex flex-column align-items-center justify-content-center ">
+                <h3>DALE PUES ADIVINALO</h3>
+                <p>
+                    Ingrese un numero del 1 al 10
+                </p>
+                <input class="w-25 m-2 " type="text" name="num" id="num">
+                <div>
+                    <button onclick="verificarNumero()">Adiviné?</button>
+                    <button onclick="limpiar()">Limpiar</button>
+                </div>
+                
+                <h3 id="resultado" class="m2"></h3>
+        </section>
+    </main>
+    <footer class="text-center bg-danger m-0">
+        <h3 >
+            Tp3RollingJS
+        </h3>
+    </footer>
+    <script src="./js/operaciones.js"></script>
+</body>
+</html>
